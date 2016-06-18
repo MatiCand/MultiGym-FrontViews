@@ -1,0 +1,200 @@
+// Reglas de codificación en CSS
+// -    Todos los atributos van en orden alfabético.
+// -    Orden de los estilos:
+//     -    *. Pre-render
+//     -    etiquetas
+//     -    IDs
+//     -    Clases
+// -  Orden alfabético en todos los estilos
+// -  Identar y hacer código LINDO.
+
+azul = #22BCE0
+naranja =  #DD4F24
+gris_oscuro = #444
+gris_texto = #7A7A7A
+amarillo = #FFCC00
+blanco = #FFFFFF
+rosa = #EE4545
+rosado = #FF7878
+
+
+body
+	font-family: 'Carrois Gothic', sans-serif;
+	padding 3.6em 0 0 0
+
+	.home-banner
+		background url('../img//2000.800.png')
+		background-size 100% 100%;
+		border-top 6px solid rosa
+		height 410px
+		text-align center
+		max-width 100%
+
+	.home-banner:before
+		display inline-block
+		height 100%
+		vertical-align middle
+		margin-right -0.25em
+
+	.home-banner-links
+		display block
+		position relative
+		text-align center
+
+	.home-h2
+		color #444
+		margin 3em 0 0 0
+
+	// .btn
+	// 	border-radius 0px
+
+	.btn2
+		background rosa
+		border 2px solid rosa
+		box-shadow 4px 4px 10px rgba(black, 0.8)
+		color blanco
+		font-size 1.5em
+		opacity 0.80
+		margin 2em 1em 0 0
+		padding 0.5em 7em
+
+	.btn2:hover
+		background rosa
+		color blanco
+		opacity 0.75
+
+	.btn-navbar
+		margin 0 0 0 0.3em
+		opacity 0.70
+
+	.btn-navbar-contacto
+		background #222222
+		border 1px solid rosa
+		padding 0.4em 1.6em
+
+	.btn-navbar-default
+		color blanco
+		margin 0 0 0 0.3em
+
+	.btn-navbar-default:hover
+		color blanco
+		margin 0 0 0 0.3em
+
+	.btn-sign
+		font-size 1.2em
+		padding 0.5em
+		width 100%
+
+	.btn-default
+		background #F1F2F2
+
+	#contacto
+		background blanco
+		margin 0.5em
+		padding 1em 2em
+
+	.form
+		width 100%
+
+	#input-form-control
+		border-radius 0px
+		padding 0.5em
+		width 100%
+
+	.img-index
+		margin 0
+		width 100%
+
+	.img-rounded
+		border 1.5px solid blanco
+		margin 0 0 2.5em 2.5em
+		height 110px
+		width 110px
+
+	.titulo1
+ 		color #7A7A7A
+ 		font-size 2em
+ 		margin 0.2em 0 0.5em 0.5em
+
+	.titulo2
+ 		color #7A7A7A
+ 		font-size 2em
+ 		margin 1em 0 0 0
+
+	.titulo4
+ 		color #7A7A7A
+ 		font-size 2.5em
+ 		text-align center
+ 		padding 1em 0
+
+ 	.navbar-index
+ 		padding  0
+
+	.navbar-brand
+		font-size 2em
+		font-family: 'Luckiest Guy', cursive;
+		margin 0
+		padding 0.2em 0 0.5em 0
+
+	.navbar-inverse
+		.navbar-toggle
+	        background #EE4545
+
+	.brand1
+		margin 0 0 0 0.5em
+
+	.brand2
+		padding 0.9em 0 0 0.3em
+
+
+
+	#sign_in
+		background blanco
+		margin 0.5em
+		padding 0.5em 2em
+
+	.siguen
+		background blanco
+		padding 0 0 6em 0
+
+footer
+		background #030303
+		padding 0
+
+	.btn-sign-index
+		font-size 1.2em
+		padding 0.8em
+		width 100%
+
+	.frame
+	    height 0
+	    position relative
+	    padding 0
+	    padding-bottom 37% // This is the aspect ratio
+	    overflow hidden
+
+    .frame
+    	iframe
+		    position absolute
+		    top 0
+		    left 0
+		    height 100% !important
+		    width 100% !important
+
+	.titulo3
+ 		color #7A7A7A
+ 		font-size 2em
+
+	.navbar-footer
+		background  black
+		color #7A7A7A
+		text-align center
+		margin 0
+		padding 0.7em 0 0 0
+
+		ul
+			list-style none
+			text-decoration none  
+
+
+@import "responsive.styl"

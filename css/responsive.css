@@ -1,0 +1,28 @@
+@media (max-width: 1024px) {
+  .block1 {
+    display: none;
+  }
+  .block3 {
+    float: right;
+  }
+}
+@media (max-width: 480px) {
+  .btn2 {
+    text-align: center;
+    width: 100%;
+  }
+  .block1 {
+    display: none;
+  }
+}
+@media (max-width: 326px) {
+  .btn2 {
+    border: 5px solid #008000;
+    text-align: center;
+    padding: 0.5em;
+    width: 100%;
+  }
+  .block1 {
+    display: none;
+  }
+}
